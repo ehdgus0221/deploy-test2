@@ -45,7 +45,7 @@ jobs:
         working-directory: ${{env.working-directory}}
 
       - name: Make zip file
-        run: zip -r ./foodMate.zip ./deploy
+        run: zip -r ./foodMate.zip .
         shell: bash
   
       - name: Configure AWS credentials
